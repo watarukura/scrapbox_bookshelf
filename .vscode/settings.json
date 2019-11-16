@@ -1,0 +1,27 @@
+{
+    "python.pythonPath": "/Users/kurashimawataru/src/github.com/watarukura/python_vscode_project_template/.venv/bin/python3.7",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/venv/**": true
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.blackEnabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnPaste": false,
+    "[python]": {
+      "editor.tabSize": 4,
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.formatOnType": false,
+      "editor.insertSpaces": true
+    },
+    "python.testing.pytestArgs": [
+      "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
