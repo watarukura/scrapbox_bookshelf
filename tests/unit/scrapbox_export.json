@@ -1,0 +1,16 @@
+{
+    "name": "handslab-bookshelf",
+    "displayName": "handslab-bookshelf",
+    "pages": [
+      {
+        "title": "Effective SQL",
+        "lines": [
+          "Effective SQL",
+          "[https://cover.openbd.jp/9784798153995.jpg] ",
+          "isbn:9784798153995",
+          "author: [JohnL.Viescas] ",
+          "publisher: [翔泳社]"
+        ]
+      }
+    ]
+}
