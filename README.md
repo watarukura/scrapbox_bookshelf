@@ -5,9 +5,10 @@
 
 ## scrapboxへ取り込むjsonファイルを作成する
 1. booklogにログインし、https://booklog.jp/export にアクセスしてCSVエクスポートする。
-2. CSVからISBNリストを取得する
+2. CSVからISBNリストを取得し、src/scrapbox_bookshelf.pyのISBNsに書き入れる
 ```bash
 $ cat booklog20191116233007.csv | awk -F"," 'length($3)==15{print $3}' | pbcopy
 ```
 3. `python src/scrapbox_bookshelf.py`を実行し、scrapbox_import.jsonを作成する
 4. scrapboxにログインし、Settings→Page Data→Import Pagesから3.で作成したjsonファイルをimportする
+  - Overwriteのチェックボックスにチェックを入れると同じタイトルのページは上書きできる
