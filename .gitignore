@@ -6,3 +6,5 @@ Pipfile.lock
 .coverage
 .mypy_cache/
 node_modules/
+*.pyc
+__pycache__/
